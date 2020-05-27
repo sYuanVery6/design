@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f226f-e298-4343-bd23-0131e0615475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sy/principle/segregation/Segregation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/principle/segregation/Segregation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/principle/inversion/DependecyInversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/principle/inversion/DependecyInversion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/principle/inversion/DependecyInversion3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/principle/singleresponsibility/Vehicle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/principle/singleresponsibility/Vehicle2.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +51,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleResponsibility3">
-    <configuration name="SingleResponsibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.principle.singleresponsibility.SingleResponsibility" />
+  <component name="RunManager" selected="Application.DependecyInversion3">
+    <configuration name="DependecyInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.principle.inversion.DependecyInversion" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.principle.singleresponsibility.*" />
+          <option name="PATTERN" value="com.sy.principle.inversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependecyInversion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.principle.inversion.DependecyInversion2" />
+      <module name="design_mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sy.principle.inversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependecyInversion3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.principle.inversion.DependecyInversion3" />
+      <module name="design_mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sy.principle.inversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,9 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DependecyInversion3" />
+        <item itemvalue="Application.DependecyInversion2" />
+        <item itemvalue="Application.DependecyInversion" />
         <item itemvalue="Application.SingleResponsibility3" />
         <item itemvalue="Application.SingleResponsibility2" />
-        <item itemvalue="Application.SingleResponsibility" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +144,7 @@
       <workItem from="1590375187349" duration="1810000" />
       <workItem from="1590451836882" duration="1906000" />
       <workItem from="1590467826963" duration="1481000" />
+      <workItem from="1590554504862" duration="2061000" />
     </task>
     <servers />
   </component>
