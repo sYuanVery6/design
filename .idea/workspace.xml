@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f226f-e298-4343-bd23-0131e0615475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sy/principle/inversion/DependecyInversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/principle/inversion/DependecyInversion2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/principle/inversion/DependecyInversion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/principle/liskov/Liskov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/singleton/DoubleCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/singleton/EnumSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/singleton/Hunger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/singleton/Hunger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/singleton/LazyMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/singleton/LazyMan2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/singleton/LazyMan3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/singleton/StaticInnerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/principle/singleresponsibility/Vehicle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/principle/singleresponsibility/Vehicle2.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +36,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,13 +57,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DependecyInversion3">
-    <configuration name="DependecyInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.principle.inversion.DependecyInversion" />
+  <component name="RunManager" selected="Application.EnumSingle">
+    <configuration name="DoubleCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.singleton.DoubleCheck" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.principle.inversion.*" />
+          <option name="PATTERN" value="com.sy.test.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependecyInversion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.principle.inversion.DependecyInversion2" />
+    <configuration name="EnumSingle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.singleton.EnumSingle" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.principle.inversion.*" />
+          <option name="PATTERN" value="com.sy.test.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependecyInversion3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.principle.inversion.DependecyInversion3" />
+    <configuration name="LazyMan2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.singleton.LazyMan2" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.principle.inversion.*" />
+          <option name="PATTERN" value="com.sy.test.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleResponsibility2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.principle.singleresponsibility.SingleResponsibility2" />
+    <configuration name="LazyMan3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.singleton.LazyMan3" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.principle.singleresponsibility.*" />
+          <option name="PATTERN" value="com.sy.test.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleResponsibility3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.principle.singleresponsibility.SingleResponsibility3" />
+    <configuration name="StaticInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.singleton.StaticInnerClass" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.principle.singleresponsibility.*" />
+          <option name="PATTERN" value="com.sy.test.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DependecyInversion3" />
-        <item itemvalue="Application.DependecyInversion2" />
-        <item itemvalue="Application.DependecyInversion" />
-        <item itemvalue="Application.SingleResponsibility3" />
-        <item itemvalue="Application.SingleResponsibility2" />
+        <item itemvalue="Application.EnumSingle" />
+        <item itemvalue="Application.StaticInnerClass" />
+        <item itemvalue="Application.DoubleCheck" />
+        <item itemvalue="Application.LazyMan3" />
+        <item itemvalue="Application.LazyMan2" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +150,15 @@
       <workItem from="1590375187349" duration="1810000" />
       <workItem from="1590451836882" duration="1906000" />
       <workItem from="1590467826963" duration="1481000" />
-      <workItem from="1590554504862" duration="2061000" />
+      <workItem from="1590554504862" duration="2729000" />
+      <workItem from="1590594468549" duration="1603000" />
+      <workItem from="1590758004548" duration="32000" />
+      <workItem from="1590758056811" duration="48000" />
+      <workItem from="1590758125703" duration="881000" />
+      <workItem from="1590797821046" duration="1958000" />
+      <workItem from="1590843402982" duration="6000" />
+      <workItem from="1590843445196" duration="1649000" />
+      <workItem from="1590888287128" duration="3327000" />
     </task>
     <servers />
   </component>
