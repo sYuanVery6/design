@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f226f-e298-4343-bd23-0131e0615475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/JDKFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/shop/HmjShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/shop/MltShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/takeout/Eleme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/takeout/MeiTuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/takeout/Phone1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/takeout/TakeOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/deep/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/deep/DeepCloneableTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/deep/DeepProtoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/improve/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/improve/Sheep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,6 +51,7 @@
   <component name="ProjectId" id="1cLm2zrLY6a5D83OiGFvLgYfFti" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/design_mode/com/sy/test/singleton" />
@@ -86,13 +87,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JDKFactory">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.factory.simplefactory.pizzastore.order.Client" />
+  <component name="RunManager" selected="Application.Client (3)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.prototype.Client" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.test.factory.simplefactory.pizzastore.order.*" />
+          <option name="PATTERN" value="com.sy.test.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumSingle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.singleton.EnumSingle" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.prototype.improve.Client" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.test.singleton.*" />
+          <option name="PATTERN" value="com.sy.test.prototype.improve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.prototype.deep.Client" />
+      <module name="design_mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sy.test.prototype.deep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,26 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.singleton.StaticInnerClass" />
-      <module name="design_mode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sy.test.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.JDKFactory" />
         <item itemvalue="Application.Phone1" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.EnumSingle" />
-        <item itemvalue="Application.StaticInnerClass" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +195,8 @@
       <workItem from="1591066727237" duration="686000" />
       <workItem from="1591104861462" duration="1168000" />
       <workItem from="1591190238137" duration="2574000" />
-      <workItem from="1591232188200" duration="773000" />
+      <workItem from="1591232188200" duration="2341000" />
+      <workItem from="1591269108303" duration="4964000" />
     </task>
     <servers />
   </component>
@@ -226,6 +228,14 @@
           <url>file://$PROJECT_DIR$/src/com/sy/test/factory/absfactory/takeout/Phone1.java</url>
           <line>9</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/sy/test/prototype/deep/Client.java</url>
+          <line>4</line>
+          <properties class="com.sy.test.prototype.deep.Client" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
