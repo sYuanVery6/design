@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f226f-e298-4343-bd23-0131e0615475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/simplefactory/pizza/CheessPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/simplefactory/pizza/GreekPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/simplefactory/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/simplefactory/pizzastore/order/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/simplefactory/pizzastore/order/OrderPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/simplefactory/pizzastore/order/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/JDKFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/shop/HmjShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/shop/MltShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/shop/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/takeout/Eleme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/takeout/MeiTuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/takeout/Phone1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/factory/absfactory/takeout/TakeOut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/singleton/EnumSingle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/singleton/EnumSingle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/singleton/SingletonE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/singleton/SingletonE.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="176" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -37,6 +40,7 @@
       <list>
         <option value="HTTP Request" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -82,26 +86,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.JDKFactory">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sy.test.factory.simplefactory.pizzastore.order.Client" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sy.test.factory.simplefactory.pizzastore.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoubleCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.singleton.DoubleCheck" />
-      <module name="design_mode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sy.test.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyMan3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.singleton.LazyMan3" />
+    <configuration name="JDKFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.factory.JDKFactory" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.test.singleton.*" />
+          <option name="PATTERN" value="com.sy.test.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Phone1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.factory.absfactory.takeout.Phone1" />
+      <module name="design_mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sy.test.factory.absfactory.takeout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDKFactory" />
+        <item itemvalue="Application.Phone1" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.EnumSingle" />
         <item itemvalue="Application.StaticInnerClass" />
-        <item itemvalue="Application.DoubleCheck" />
-        <item itemvalue="Application.LazyMan3" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +190,11 @@
       <workItem from="1590888287128" duration="4045000" />
       <workItem from="1590906166955" duration="38000" />
       <workItem from="1590917101188" duration="4140000" />
-      <workItem from="1591058139751" duration="1535000" />
+      <workItem from="1591058139751" duration="1820000" />
+      <workItem from="1591066727237" duration="686000" />
+      <workItem from="1591104861462" duration="1168000" />
+      <workItem from="1591190238137" duration="2574000" />
+      <workItem from="1591232188200" duration="773000" />
     </task>
     <servers />
   </component>
@@ -205,5 +213,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Object.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sy/test/factory/absfactory/takeout/Phone1.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/design_mode$Phone1.ic" NAME="Phone1 Coverage Results" MODIFIED="1591192330329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sy.test.factory.absfactory.takeout.*</FILTER>
+    </SUITE>
   </component>
 </project>
