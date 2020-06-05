@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f226f-e298-4343-bd23-0131e0615475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/classadapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/classadapter/IVoltage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/classadapter/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/classadapter/Voltage220V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/classadapter/VoltageAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/interfaceadapter/AbsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/interfaceadapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/interfaceadapter/InterFace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter/IVoltage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter/Voltage220V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter/VoltageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/mvc/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/mvc/DispatchServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/mvc/HandlerAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/adapter/interfaceadapter/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/adapter/interfaceadapter/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/adapter/interfaceadapter/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/adapter/interfaceadapter/Client.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/sy/test/adapter/mvc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,6 +63,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyJavaProject\design_mode\src\com\sy\test\adapter\mvc" />
       <recent name="D:\MyJavaProject\design_mode\src\com\sy\test\adapter\objectadapter" />
       <recent name="D:\MyJavaProject\design_mode\out\production\design_mode\com\sy\test\singleton" />
       <recent name="D:\MyJavaProject\design_mode\src\com\sy\test\singleton" />
@@ -93,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sy.test.adapter.interfaceadapter.Client" />
       <module name="design_mode" />
@@ -161,10 +154,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (4)" />
-        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
@@ -204,7 +197,9 @@
       <workItem from="1591232188200" duration="2341000" />
       <workItem from="1591269108303" duration="5638000" />
       <workItem from="1591315932681" duration="1266000" />
-      <workItem from="1591342798814" duration="9595000" />
+      <workItem from="1591342798814" duration="11623000" />
+      <workItem from="1591367097224" duration="1085000" />
+      <workItem from="1591396998245" duration="743000" />
     </task>
     <servers />
   </component>
