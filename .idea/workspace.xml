@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f226f-e298-4343-bd23-0131e0615475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/deep/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/deep/DeepCloneableTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/deep/DeepProtoType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/improve/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/prototype/improve/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/builder/AbsBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/builder/ConcreteBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/builder/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/prototype/deep/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/prototype/deep/Client.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sy.test.prototype.Client" />
       <module name="design_mode" />
@@ -127,6 +125,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.builder.Client" />
+      <module name="design_mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sy.test.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JDKFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sy.test.factory.JDKFactory" />
       <module name="design_mode" />
@@ -140,26 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Phone1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.factory.absfactory.takeout.Phone1" />
-      <module name="design_mode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sy.test.factory.absfactory.takeout.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.JDKFactory" />
-        <item itemvalue="Application.Phone1" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +194,9 @@
       <workItem from="1591104861462" duration="1168000" />
       <workItem from="1591190238137" duration="2574000" />
       <workItem from="1591232188200" duration="2341000" />
-      <workItem from="1591269108303" duration="4964000" />
+      <workItem from="1591269108303" duration="5638000" />
+      <workItem from="1591315932681" duration="1266000" />
+      <workItem from="1591342798814" duration="1751000" />
     </task>
     <servers />
   </component>
