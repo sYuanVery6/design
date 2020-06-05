@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f226f-e298-4343-bd23-0131e0615475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/builder/AbsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/builder/ConcreteBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/builder/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/classadapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/classadapter/IVoltage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/classadapter/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/classadapter/Voltage220V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/classadapter/VoltageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/interfaceadapter/AbsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/interfaceadapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/interfaceadapter/InterFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter/IVoltage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter/Voltage220V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter/VoltageAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/prototype/deep/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/prototype/deep/Client.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/design_mode/com/sy/test/singleton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/sy/test/adapter/objectadapter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyJavaProject\design_mode\src\com\sy\test\adapter\objectadapter" />
       <recent name="D:\MyJavaProject\design_mode\out\production\design_mode\com\sy\test\singleton" />
       <recent name="D:\MyJavaProject\design_mode\src\com\sy\test\singleton" />
     </key>
@@ -85,26 +93,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (1)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.prototype.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.adapter.interfaceadapter.Client" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.test.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.prototype.improve.Client" />
-      <module name="design_mode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sy.test.prototype.improve.*" />
+          <option name="PATTERN" value="com.sy.test.adapter.interfaceadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,6 +120,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.adapter.classadapter.Client" />
+      <module name="design_mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sy.test.adapter.classadapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.adapter.objectadapter.Client" />
+      <module name="design_mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sy.test.adapter.objectadapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sy.test.builder.Client" />
       <module name="design_mode" />
@@ -138,26 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDKFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.factory.JDKFactory" />
-      <module name="design_mode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sy.test.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client (5)" />
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.JDKFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +204,7 @@
       <workItem from="1591232188200" duration="2341000" />
       <workItem from="1591269108303" duration="5638000" />
       <workItem from="1591315932681" duration="1266000" />
-      <workItem from="1591342798814" duration="1751000" />
+      <workItem from="1591342798814" duration="9595000" />
     </task>
     <servers />
   </component>
