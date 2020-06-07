@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f226f-e298-4343-bd23-0131e0615475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/demo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/demo/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/demo/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/demo/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/dynamic/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/dynamic/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/dynamic/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/dynamic/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/demo/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/demo/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/demo/Proxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/demo/Proxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/demo/RealSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/demo/RealSubject.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sy.test.adapter.interfaceadapter.Client" />
       <module name="design_mode" />
@@ -112,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.adapter.classadapter.Client" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.proxy.dynamic.Client" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sy.test.adapter.classadapter.*" />
+          <option name="PATTERN" value="com.sy.test.proxy.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (5)" />
-        <item itemvalue="Application.Client (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +202,7 @@
       <workItem from="1591342798814" duration="11623000" />
       <workItem from="1591367097224" duration="1085000" />
       <workItem from="1591396998245" duration="1716000" />
-      <workItem from="1591515183729" duration="1861000" />
+      <workItem from="1591515183729" duration="4177000" />
     </task>
     <servers />
   </component>
