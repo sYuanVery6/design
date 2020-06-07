@@ -4,6 +4,15 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/*
+jar包版本：
+asm-4.1.jar
+asm-commons -7.3.jar
+asm-tree-4.1.jar
+cglib-3.3.0.jar
+ */
+
+
 public class ProxyFactory {
 
     private Object target;
@@ -31,7 +40,7 @@ public class ProxyFactory {
                     @Override
                     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                         preProxy();
-                        //执行目标对象的方法
+                        //执行目标对象的方法,并接受方法返回的结果
                         Object invokeMethod = method.invoke(target,args);
                         postProxy();
                         return invokeMethod;
