@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f226f-e298-4343-bd23-0131e0615475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/cglibproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/cglibproxy/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/cglibproxy/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/CoffeeBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/LongBlack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/ShortBlack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Soy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_mode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design_mode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sy/test/proxy/dynamic/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/dynamic/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sy/test/proxy/dynamic/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sy/test/proxy/dynamic/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/ProxyFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/ProxyFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/ProxyFactory.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,20 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sy.test.adapter.interfaceadapter.Client" />
-      <module name="design_mode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sy.test.adapter.interfaceadapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CoffeeBar">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sy.test.proxy.demo.Client" />
       <module name="design_mode" />
@@ -156,13 +150,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CoffeeBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sy.test.decorator.CoffeeBar" />
+      <module name="design_mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sy.test.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoffeeBar" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +211,8 @@
       <workItem from="1591342798814" duration="11623000" />
       <workItem from="1591367097224" duration="1085000" />
       <workItem from="1591396998245" duration="1716000" />
-      <workItem from="1591515183729" duration="7803000" />
+      <workItem from="1591515183729" duration="8622000" />
+      <workItem from="1591592748960" duration="5132000" />
     </task>
     <servers />
   </component>
@@ -244,6 +252,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/sy/test/decorator/CoffeeBar.java</url>
+          <line>4</line>
+          <properties class="com.sy.test.decorator.CoffeeBar" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
