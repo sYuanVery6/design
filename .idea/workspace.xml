@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f226f-e298-4343-bd23-0131e0615475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Chocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/CoffeeBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/LongBlack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/ShortBlack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/Soy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/ProxyFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/ProxyFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design_mode/com/sy/test/proxy/dynamic/ProxyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sy/test/decorator/CoffeeBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sy/test/decorator/CoffeeBar.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +200,7 @@
       <workItem from="1591367097224" duration="1085000" />
       <workItem from="1591396998245" duration="1716000" />
       <workItem from="1591515183729" duration="8622000" />
-      <workItem from="1591592748960" duration="5132000" />
+      <workItem from="1591592748960" duration="6140000" />
     </task>
     <servers />
   </component>
@@ -252,14 +240,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/sy/test/decorator/CoffeeBar.java</url>
-          <line>4</line>
-          <properties class="com.sy.test.decorator.CoffeeBar" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
